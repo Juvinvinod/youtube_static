@@ -157,7 +157,11 @@
       border-radius: 16px;
       white-space: nowrap;
       cursor: pointer;
+  }
 
+  .chip:hover {
+      cursor: pointer;
+      background: #cac8c8;
   }
 
   /* videos */
@@ -194,6 +198,10 @@
       height: 100%;
       width: 100%;
       border-radius: 10px;
+  }
+
+  .video:hover {
+      cursor: pointer;
   }
 
   .author img {
